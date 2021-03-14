@@ -2,11 +2,13 @@ import ConstructorTypes.Example
 import ConstructorTypes.Example2
 import ConstructorTypes.Example3
 import ConstructorTypes.Example4
+import abstractEx.abstract_Ex
+import abstractEx.abstract_Ex2
 import inheritance.Child
 import inheritance.Parent
 
 
-fun main(args: Array<String>) {
+fun main() {
 //    println("Hello Kotlin <3")
 
     //Inheritance
@@ -31,6 +33,14 @@ fun main(args: Array<String>) {
 
     val G = Example4(1,2,"Hey!")
     G.printValues()
+
+    //Abstraction
+    val H = abstract_Ex()
+    H.printHello()
+
+    val I = abstract_Ex2(2)
+    I.printHello()
+    I.printHey()
 }
 
 fun multiply(x: Int, y: Int) = x*y
