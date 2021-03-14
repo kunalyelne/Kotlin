@@ -41,6 +41,18 @@ fun main() {
     val I = abstract_Ex2(2)
     I.printHello()
     I.printHey()
+
+    //Interface
+    val J = interfaceEx.Example_interface()
+    J.printHell()
+
+
+    val K = object : interfaceEx.Example {
+        override fun printHell() {
+            println("Hell")
+        }
+    }
+
 }
 
 fun multiply(x: Int, y: Int) = x*y
