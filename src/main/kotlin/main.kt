@@ -54,5 +54,3 @@ fun main() {
     }
 
 }
-
-fun multiply(x: Int, y: Int) = x*y
