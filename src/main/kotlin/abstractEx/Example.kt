@@ -18,7 +18,7 @@ class abstract_Ex : Example() {
     }
 }
 
-class abstract_Ex2(b:Int) : Example2(b) {
+class abstract_Ex2(b:Int) : Example2(2) {
     override fun printHey() {
         println("Hey and $b")
     }
